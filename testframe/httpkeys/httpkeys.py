@@ -71,9 +71,4 @@ class Http:
             print("fail")
 
 
-if __name__=='__main__':
-    http=Http()
-    data={"user_id":"wanggangtest","user_pwd":"SYhyyVqM","verify_code":"wanggangtestpystandard","force":1}
-    http.post('https://www.pystandard.com.cn/pyfinance2v2/pyplatform_v2/front_system/user/validate/login',data)
-    http.savere('token','["flag"]')
 
